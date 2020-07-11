@@ -1,4 +1,4 @@
-name: When a push occurs in the master branch,a private message is sent on the Whatsapp.
+name: When a push occurs in the master branch, a private message is sent on the Whatsapp.
 on:
   push:
     branches: 
@@ -13,6 +13,6 @@ jobs:
       - name: run code
         run: python main.py
         env:
-          account_sid: ${{ secret.account_sid }}
-          auth_token: ${{ secret.auth_token }}
-          to_whatsapp_no: ${{ secret.to_whatsapp_no }}
+          account_sid: ${{ secrets.account_sid }}
+          auth_token: ${{ secrets.auth_token }}
+          to_whatsapp_no: ${{ secrets.to_whatsapp_no }}
