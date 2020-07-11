@@ -1,4 +1,4 @@
-name: When a push occurs in the master branch, a private message is sent on the Whatsapp.
+name: When a push occurs in the master branch,a private message is sent on the Whatsapp.
 on:
   push:
     branches: 
