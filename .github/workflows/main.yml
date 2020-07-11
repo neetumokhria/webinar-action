@@ -13,6 +13,6 @@ jobs:
       - name: run code
         run: python main.py
         env:
-          account_sid: ${{ add secret of account sid }}
-          auth_token: ${{ add secret of auth token }}
-          to_whatsapp_no: ${{ add secret of to_whatsapp_no }}
+          account_sid: ${{ secret.account_sid }}
+          auth_token: ${{ secret.auth_token }}
+          to_whatsapp_no: ${{ secret.to_whatsapp_no }}
