@@ -1,0 +1,6 @@
+name: "Push notification on Whatsapp"
+description: "Triggers a Private Message to the specified Whatsapp user when code is pushed in the master branch"
+author: "Neetu"
+branding:
+  icon: message-square
+  color: blue
